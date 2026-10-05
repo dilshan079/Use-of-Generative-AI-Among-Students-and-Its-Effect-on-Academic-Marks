@@ -20,6 +20,19 @@ This study analyzes 50,000 student records across 5 academic majors and 5 study 
 
 ---
 
+## Dashboard Preview
+
+### 1. Overview & Key Metrics
+![GenAI Use Overview](_ai_dashboard.jpg)
+
+### 2. Key Analytics & Skill Retention Charts
+![Skill Retention & Anxiety Charts](ai_dashboard2.jpg)
+
+### 3. Segment Explorer
+![Segment Explorer Table](ai_dashboard3.jpg)
+
+---
+
 ## Core Findings & Insights
 
 1. **Moderate Use Wins (Sweet Spot):**
@@ -92,10 +105,12 @@ The dataset includes 50,000 anonymized student records with the following fields
 * `institutional_policy`: Policy enforced (`Strict Ban`, `Allowed with Citation`, `Actively Encouraged`).
 * `gpa_pre`: Student GPA before the semester.
 * `gpa_post`: Student GPA after the semester.
-* `gpa_change`: Differential GPA gain ($gpa\_post - gpa\_pre$).
+* `gpa_change`: Differential GPA gain.
 * `skill_retention`: Measured score out of 100.
 * `exam_anxiety`: Perceived exam anxiety score (Scale 1–10).
 * `ai_dependency`: Perceived dependency score.
 * `burnout_risk`: Categorical risk classification (`Low`, `Medium`, `High`).
 
 ---
+
+
